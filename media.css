@@ -1,0 +1,139 @@
+@media (max-width : 600px) {
+    nav .nav1div1, p , .nav1div2{
+        display: none;
+    }
+    nav .slider{
+        width: 100%;
+        height: 100%;
+        display: initial;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    nav {
+        height: 8vw;
+    }
+    @keyframes slide {
+        from{
+            transform: translate(0%);
+        }
+        to{
+            transform: translate(-100%);
+        }
+        
+    }
+    nav .slider h1{
+        display: inline-block;
+        color:  #8e8e8e;
+        animation: slide linear 10s infinite;
+    }
+    nav .slider h1 img{
+        height: 2.9vh;
+       
+        width: 6.5vw;
+        margin: 0.5vw;
+      
+      
+    }
+
+    .div1 .spanDiv{
+        display: none;
+         
+    }
+    .div1 {
+        justify-content:space-between;
+    
+    }
+    .div1 h1{
+        font-size: 3vw;
+        margin-left: 3vw;
+    }
+    .div1 .icons{
+        margin-right: 3vw;
+    }
+    .div1 .icons i{
+        font-size: 3vw;
+    }
+    .div2{
+        background-attachment: fixed;
+    }
+
+   .div2 .div2L {
+        padding: 0;
+        
+    
+  } 
+    .div2 .div2L h1{
+        margin-top: 15vh;
+    } 
+    .div2 .div2L button{
+        width: 50%;
+    }
+    
+
+    .div2 .div2R .div2R-in span{
+        font-size: 6vw;
+        font-weight: 600;
+       
+        padding: 0;
+        margin: 0;
+       
+    }
+
+   .div2 .div2R p {
+        display: initial;
+        color: white;
+        font-size: 2vw;
+        padding: 0;
+        margin: 0;
+    } 
+    .div3{
+        height: 200vh;
+    }
+    
+
+    .div3 .div-cloths{
+        overflow: hidden;
+       
+        display: block;
+    
+height: 90%;
+      
+       
+    }
+   
+    .div-cloths .cl1{
+
+        height: 40vh;
+        width: 90%;
+        display: inline-block;
+        
+        margin-left: 2vw;
+      
+    }
+
+   
+    .div-cloths .cl1 p{
+        display: initial;
+        margin-top: 4vh;
+        font-size: 2.5vw;
+        margin-right: 2vw;
+        text-align: end;
+    }
+
+    .div-cloths .cl1 img { 
+     margin-top: 1vh;
+     margin-bottom: 4vh;
+       
+       
+        height: 30vh;
+        transition: all 2s;
+       
+    }
+    .div-cloths .cl1 img:hover{
+        transform: translate(90%);
+    }
+
+   
+
+    
+}
