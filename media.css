@@ -132,6 +132,32 @@ height: 90%;
     .div-cloths .cl1 img:hover{
         transform: translate(90%);
     }
+    .footer .ficons{
+        margin-top: 4vh;
+    }
+
+    .footer i{
+
+        font-size: 6vw;
+   
+  
+       
+    }
+    .footer p{
+        display: initial;
+        font-size: 2vw;
+      
+        
+    
+       
+    }
+    .end{
+    margin-top: 17%;
+    
+    }
+    .end h3{
+        font-size: 4vw;
+    }
 
    
 
